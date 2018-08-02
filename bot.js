@@ -75,7 +75,7 @@ if (message.content.startsWith("القرآن")) {
             page++;
             embed.setDescription(pages[page-1]);
             embed.setFooter(`Page ${page} of ${pages.length}`);
-			embed.addField('     **=-=-=-=-=-=-=** ' ,' ** :smiley: لم يتم بعد اضافة أوامر هذا السيرفر**')
+			embed.addField('     **=-=-=-=-=-=-=** ' ,' ** :smiley: تم ارسال الطريقة في الخاص**')
 			embed.addField('     **=-=-=-=-=-=-=** ' ,' :smiley:  شكراً لإستعمالك البوت')
             message.author.sendMessage(`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
