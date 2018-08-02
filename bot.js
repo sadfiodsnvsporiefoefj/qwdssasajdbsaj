@@ -30,7 +30,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-if (message.content.startsWith("القران")) {
+if (message.content.startsWith("القرآن")) {
     let pages = [' اهلا وسهلا بك يا عزيزي','السيرفر الأول','السيرفر الثاني','السيرفر الثالث','السيرفر الرابع','السيرفر الخامس','مراسلة صاحب البوت','شكرً جزيلا لكم']
     let page = 1;
 
